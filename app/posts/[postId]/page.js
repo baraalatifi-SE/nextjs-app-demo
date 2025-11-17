@@ -3,7 +3,7 @@ import { Suspense } from "react";
 export default async function page({ params }) {
   const { postId } = await params;
 
-  const loadingJsx = <div>loading</div>;
+  const loadingJsx = <div>wait ...</div>;
   return (
     <div>
       {" "}
